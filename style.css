@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400;700&family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap"); */
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  /* box-sizing: content-box; */
+}
+.login-area {
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 40px;
+  gap: 5px;
+}
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.logo {
+  /* height: 60px; */
+  width: 175px;
+  margin: 30px 0px;
+}
+.ins-input {
+  padding: 10px 8px;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+.ins-input:focus {
+  outline-color: #ababab;
+}
+.ins-button {
+  width: 100%;
+  background-color: #0095f6;
+  border: none;
+  color: white;
+  padding: 10px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 10px;
+}
+.ins-button:hover {
+  background-color: #1a77f2;
+}
+.or-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+.or-section-line {
+  border-bottom: 1px solid #dbdbdb;
+  width: 40%;
+  height: 20px;
+  margin-top: -15px;
+}
+.or-section-text {
+  color: #757575;
+  font-size: 12.5px;
+}
+.login-text-facebook {
+  color: #385185;
+}
+.forgot {
+  font-size: 12px;
+  color: #01376b;
+}
+p {
+  margin: 10px;
+}
+.ins-text-dont-have-account {
+  color: black;
+}
+.ins-text-signup {
+  color: #0095f6;
+}
